@@ -14,7 +14,7 @@ internal class Program
         // criando um nokia 
 
         Nokia n1 = new Nokia("12356cx", "nokia 2000", "233344", 128);
-        Console.WriteLine($"Nokia: {i1.Modelo}, com {i1.Memoria} GB de memória. ");
+        Console.WriteLine($"Nokia: {n1.Modelo}, com {n1.Memoria} GB de memória. ");
         n1.InstalarAplicativo("Twitter");
         n1.Ligar();
         n1.ReceberLigacao();
